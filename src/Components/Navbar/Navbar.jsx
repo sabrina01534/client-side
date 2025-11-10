@@ -63,8 +63,8 @@ const links=<>
     {/* {user ?
     <a onClick={handleSignOut} className="btn">Sign Out </a>:<Link className='text-blue-500 bg-green-200 p-3 ' to="/login">Login</Link>}
       */}
-      <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Login</button>
-      <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Register</button>
+      <Link to="/login" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Login</Link>
+      <Link to="/register" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Register</Link>
   </div>
 </div>
     );
