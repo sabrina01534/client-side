@@ -5,15 +5,15 @@ import { AuthContext } from '../Context/AuthContext/AuthContext';
 const Navbar = () => {
 const {user,signOutUser}=use(AuthContext)
 
-const handleSignOut=()=>{
-    signOutUser()
-    .then((result)=>{
-        console.log(result)
-    })
-    .catch(error=>{
-        console.log(error)
-    })
-}
+// const handleSignOut=()=>{
+//     signOutUser()
+//     .then((result)=>{
+//         console.log(result)
+//     })
+//     .catch(error=>{
+//         console.log(error)
+//     })
+// }
 
 const links=<>
  <li><NavLink to='/'>Home</NavLink></li>       
@@ -43,6 +43,13 @@ const links=<>
       </ul>
     </div>
   
+<div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+        <div className="w-10 rounded-full">
+          <img
+            alt="Tailwind CSS Navbar component"
+            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+        </div>
+</div>
     <a className="btn btn-ghost text-2xl text-green-600">GreenNest</a>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -52,9 +59,12 @@ const links=<>
   </div>
   <div className="navbar-end">
     {/* <p className='mr-3 '><CgProfile /></p> */}
-    {user ?
-    <a onClick={handleSignOut} className="btn">Sign Out</a>:<Link className='text-blue-500 bg-green-200 p-3 ' to="/login">Login</Link>}
-     
+
+    {/* {user ?
+    <a onClick={handleSignOut} className="btn">Sign Out </a>:<Link className='text-blue-500 bg-green-200 p-3 ' to="/login">Login</Link>}
+      */}
+      <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Login</button>
+      <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Register</button>
   </div>
 </div>
     );

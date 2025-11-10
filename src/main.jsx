@@ -6,6 +6,7 @@ import './index.css'
 import App from './App.jsx'
 import Root from './Components/Layout/Root.jsx';
 import AuthProvider from './Components/Context/AuthContext/AuthProvider.jsx';
+import Home from './Components/Home/Home.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,9 @@ const router = createBrowserRouter([
     {
       index:true,
       path:"/",
-    }
+      Component:Home
+    },
+   
    ]
   },
 ]);
