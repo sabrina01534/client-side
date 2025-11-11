@@ -48,6 +48,7 @@ const router = createBrowserRouter([
    },
    {
     path:"/pages",
+    loader:()=>fetch('MoreData.json'),
     element:<PrivateRoutes>
       <ListDetails></ListDetails>
     </PrivateRoutes>

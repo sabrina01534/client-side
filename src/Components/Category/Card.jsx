@@ -16,7 +16,7 @@ const Card = ({singleCard}) => {
     <h2 className="card-title"> Pets (Adoption)</h2>
     <p className='mr-10'>We have four kinds of pets for adoption</p>
     <div className="card-actions justify-end">
-      <Link to={`${id}`} className="btn bg-green-500 mt-8">Available</Link>
+      {/* <Link to={`${id}`} className="btn bg-green-500 mt-8">Available</Link> */}
     </div>
   </div>
 </div>

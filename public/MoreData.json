@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Golden Retriever Puppy",
+    "category": "Pet Adoption",
+    "owner_email": "adopt@petlovebd.com",
+    "description": "A friendly and playful Golden Retriever puppy looking for a loving family. Vaccinated and healthy.",
+    "price": 8500,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16"
+  },
+  {
+    "name": "Persian Cat (White)",
+    "category": "Pet Adoption",
+    "owner_email": "meowhome@gmail.com",
+    "description": "Purebred Persian cat with silky white fur. Calm and affectionate nature, 1 year old.",
+    "price": 9500,
+    "location": "Chattogram, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1601758125946-1a5b4b8a8a3b"
+  },
+  {
+    "name": "Labrador Retriever",
+    "category": "Pet Adoption",
+    "owner_email": "pawcare@bdpets.com",
+    "description": "Healthy male Labrador, 6 months old. Very friendly and active, ideal family pet.",
+    "price": 12000,
+    "location": "Sylhet, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+  },
+  {
+    "name": "Pedigree Dry Dog Food 3kg",
+    "category": "Pet Food",
+    "owner_email": "sales@petmart.com",
+    "description": "Nutritious dry dog food with chicken and rice flavor. Promotes strong bones and shiny coat.",
+    "price": 1350,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1604908177225-d0f4b4c5b9c8"
+  },
+  {
+    "name": "Whiskas Adult Cat Food 2kg",
+    "category": "Pet Food",
+    "owner_email": "info@catzonebd.com",
+    "description": "Delicious and balanced dry food for adult cats. Enriched with vitamins and minerals.",
+    "price": 1250,
+    "location": "Rajshahi, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1605478577919-58c8b48e8f2c"
+  },
+  {
+    "name": "Parrot Feeding Mix 1kg",
+    "category": "Pet Food",
+    "owner_email": "birdcare@petcorner.com",
+    "description": "Mixture of seeds and fruits designed to keep parrots healthy and energetic.",
+    "price": 750,
+    "location": "Khulna, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6"
+  },
+  {
+    "name": "Rabbit Hay & Pellet Mix",
+    "category": "Pet Food",
+    "owner_email": "feedzonebd@gmail.com",
+    "description": "Premium quality hay and pellets mix for rabbits. Keeps digestion smooth.",
+    "price": 680,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1606312619036-79c8a3d3efb1"
+  },
+  {
+    "name": "Cat Grooming Brush",
+    "category": "Pet Care",
+    "owner_email": "support@petstylebd.com",
+    "description": "Soft bristle grooming brush ideal for daily use to remove loose fur and tangles.",
+    "price": 520,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1601758123927-1965d4e4a8e9"
+  },
+  {
+    "name": "Dog Shampoo (Aloe Vera)",
+    "category": "Pet Care",
+    "owner_email": "shop@pawlove.com",
+    "description": "Natural aloe vera shampoo for shiny, healthy dog coats. Suitable for all breeds.",
+    "price": 450,
+    "location": "Comilla, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1583511655793-797f4b3de30b"
+  },
+  {
+    "name": "Bird Cage Cleaner Spray",
+    "category": "Pet Care",
+    "owner_email": "clean@birdhousebd.com",
+    "description": "Easy-to-use spray that keeps cages clean and odor-free. Safe for all birds.",
+    "price": 380,
+    "location": "Barishal, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1612981882392-5e74b5a01b4f"
+  },
+  {
+    "name": "German Shepherd Puppy",
+    "category": "Pet Adoption",
+    "owner_email": "germandogs@petworld.com",
+    "description": "Strong and intelligent German Shepherd puppy, vaccinated and active.",
+    "price": 11000,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006"
+  },
+  {
+    "name": "Tropical Fish Food Flakes",
+    "category": "Pet Food",
+    "owner_email": "aqua@fishstorebd.com",
+    "description": "Balanced nutrition flakes for all tropical fish. Enhances color and vitality.",
+    "price": 550,
+    "location": "Sylhet, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1596436889106-be35e843f974"
+  },
+  {
+    "name": "Pet Nail Clipper Set",
+    "category": "Pet Care",
+    "owner_email": "care@pawmatebd.com",
+    "description": "Professional-grade nail clippers for dogs and cats. Easy to handle and safe.",
+    "price": 490,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1595433707802-5efcbef9f4e1"
+  },
+  {
+    "name": "Maine Coon Cat",
+    "category": "Pet Adoption",
+    "owner_email": "catsparadise@gmail.com",
+    "description": "Large and gentle Maine Coon cat with luxurious fur. 2 years old, house-trained.",
+    "price": 10500,
+    "location": "Khulna, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1605496035786-7e8e52f36d3b"
+  },
+  {
+    "name": "Dog Flea & Tick Spray",
+    "category": "Pet Care",
+    "owner_email": "vetcare@petshop.com",
+    "description": "Effective tick and flea control spray for dogs. Gentle on skin, tough on pests.",
+    "price": 560,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1598133894009-9d8c0c8ab1d6"
+  },
+  {
+    "name": "Siamese Cat Kitten",
+    "category": "Pet Adoption",
+    "owner_email": "meowtown@petsbd.com",
+    "description": "Cute and vocal Siamese kitten, 3 months old, playful and healthy.",
+    "price": 8800,
+    "location": "Rajshahi, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1ee1f29"
+  },
+  {
+    "name": "Bird Vitamins Liquid",
+    "category": "Pet Care",
+    "owner_email": "birdvets@careplus.com",
+    "description": "Liquid supplement for pet birds to boost energy and immunity.",
+    "price": 350,
+    "location": "Barishal, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1625341659776-46c97bc48e70"
+  },
+  {
+    "name": "Hamster Bedding Pack",
+    "category": "Pet Care",
+    "owner_email": "smallpets@homezone.com",
+    "description": "Soft, absorbent bedding for hamsters and small rodents. Odor control guaranteed.",
+    "price": 420,
+    "location": "Chattogram, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1628091795312-6c0cf0bdb2f8"
+  },
+  {
+    "name": "Cat Litter (10kg)",
+    "category": "Pet Care",
+    "owner_email": "shop@petcomfort.com",
+    "description": "High-absorbent cat litter with odor control and dust-free formula.",
+    "price": 890,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1601758260620-3fbc1b0e1c4d"
+  },
+  {
+    "name": "Puppy Starter Milk Formula",
+    "category": "Pet Food",
+    "owner_email": "milkcare@petbaby.com",
+    "description": "Nutrient-rich milk formula for newborn puppies. Easy to digest and veterinarian-approved.",
+    "price": 1250,
+    "location": "Dhaka, Bangladesh",
+    "image": "https://images.unsplash.com/photo-1612036782185-6d70b8d8a3c7"
+  }
+]
