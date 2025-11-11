@@ -8,21 +8,23 @@ const Banner = () => {
           id="slide1"
           className="carousel-item relative w-full  "
           style={{
-            backgroundImage:
-              "url(https://i.ibb.co.com/wZcgHGJj/banner1.jpg)",
+            backgroundImage: "url(https://i.ibb.co.com/wZcgHGJj/banner1.jpg)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
           }}
         >
-          <div className="max-w-md text-center">
+          <div className="max-w-md text-center absolute top-1/2 left-1/2">
             <h1 className="text-center text-5xl font-bold ">Hello there</h1>
           </div>
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-          <a href="#slide4" className="btn btn-circle">
-            ❮
-          </a>
-          <a href="#slide2" className="btn btn-circle">
-            ❯
-          </a>
-        </div>
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
         </div>
       </div>
 

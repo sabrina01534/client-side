@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co.com/9dgK899/download-19.jpg",
+    "name": "Golden Retriever Puppy",
+    "category": "Pet Adoption",
+    "location": "Dhaka, Bangladesh",
+    "price": 8000,
+    "button": "See Details"
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co.com/YBBLPD8m/download-7.jpg",
+    "name": "Persian Cat",
+    "category": "Pet Adoption",
+    "location": "Chittagong, Bangladesh",
+    "price": 9500,
+    "button": "See Details"
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co.com/4nwXdPy3/download-23.jpg",
+    "name": "Parrot (Green Ringneck)",
+    "category": "Pet Adoption",
+    "location": "Sylhet, Bangladesh",
+    "price": 3000,
+    "button": "See Details"
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co.com/vnRKzXP/download-8.jpg",
+    "name": "Siamese Kitten",
+    "category": "Pet Adoption",
+    "location": "Rajshahi, Bangladesh",
+    "price": 7000,
+    "button": "See Details"
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co.com/yFHw7mSX/download-22.jpg",
+    "name": "German Shepherd",
+    "category": "Pet Adoption",
+    "location": "Khulna, Bangladesh",
+    "price": 10000,
+    "button": "See Details"
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co.com/s92WH5F1/download-18.jpg",
+    "name": "Pei Fish",
+    "category": "Pet Adoption",
+    "location": "Dhaka, Bangladesh",
+    "price": 1350,
+    "button": "See Details"
+  },
+  {
+    "id": "7",
+    "image": "https://i.ibb.co.com/L4sSz6K/download-1.jpg",
+    "name": "Whiskas Adult Cat Food (1.2kg)",
+    "category": "Pet Food",
+    "location": "Sylhet, Bangladesh",
+    "price": 780,
+    "button": "See Details"
+  },
+  {
+    "id": "8",
+    "image": "https://i.ibb.co.com/v6tLPV6X/download-3.jpg",
+    "name": "Dog Grooming Brush Set",
+    "category": "Pet Care",
+    "location": "Dhaka, Bangladesh",
+    "price": 650,
+    "button": "See Details"
+  },
+  {
+    "id": "9",
+    "image": "https://i.ibb.co.com/F453ywB7/shampoo.jpg",
+    "name": "Cat Shampoo ",
+    "category": "Pet Care",
+    "location": "Rajshahi, Bangladesh",
+    "price": 480,
+    "button": "See Details"
+  },
+  {
+    "id": "10",
+    "image": "https://i.ibb.co.com/fdRssSYG/download-17.jpg",
+    "name": "Blue Fish",
+    "category": "Pet Adoption",
+    "location": "Mymensingh, Bangladesh",
+    "price": 2500,
+    "button": "See Details"
+  },
+  {
+    "id": "11",
+    "image": "https://i.ibb.co.com/YKCHZKG/download-6.jpg",
+    "name": "Dog Training Leash (5m)",
+    "category": "Pet Care",
+    "location": "Chittagong, Bangladesh",
+    "price": 550,
+    "button": "See Details"
+  },
+  {
+    "id": "12",
+    "image": "https://i.ibb.co.com/QFb90Vv5/images.jpg",
+    "name": "Kitten Milk Replacer (250ml)",
+    "category": "Pet Food",
+    "location": "Dhaka, Bangladesh",
+    "price": 320,
+    "button": "See Details"
+  },
+  {
+    "id": "13",
+    "image": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb",
+    "name": "Pet Nail Clipper",
+    "category": "Pet Adoption",
+    "location": "Barisal, Bangladesh",
+    "price": 300,
+    "button": "See Details"
+  },
+  {
+    "id": "14",
+    "image": "https://i.ibb.co.com/4ntMdC26/download-7.jpg",
+    "name": "Bird Feed Mix (1kg)",
+    "category": "Pet Food",
+    "location": "Sylhet, Bangladesh",
+    "price": 280,
+    "button": "See Details"
+  },
+  {
+    "id": "15",
+    "image": "https://i.ibb.co.com/vxkkDvtP/download-20.jpg",
+    "name": "Pomeranian Puppy",
+    "category": "Pet Adoption",
+    "location": "Dhaka, Bangladesh",
+    "price": 9000,
+    "button": "See Details"
+  },
+  {
+    "id": "16",
+    "image": "https://i.ibb.co.com/fWdQfd9/download-8.jpg",
+    "name": "Bird Care",
+    "category": "Pet Care",
+    "location": "Khulna, Bangladesh",
+    "price": 600,
+    "button": "See Details"
+  },
+  {
+    "id": "17",
+    "image": "https://i.ibb.co.com/sJ31KfDH/download-9.jpg",
+    "name": "Whiskas Adult Cat Food (1.2kg)",
+    "category": "Pet Food",
+    "location": "Dhaka, Bangladesh",
+    "price": 250,
+    "button": "See Details"
+  },
+  {
+    "id": "18",
+    "image": "https://i.ibb.co.com/bRsPsdN7/download-4.jpg",
+    "name": "Pet First Aid Kit",
+    "category": "Pet Care",
+    "location": "Rangpur, Bangladesh",
+    "price": 890,
+    "button": "See Details"
+  },
+  {
+    "id": "19",
+    "image": "https://i.ibb.co.com/mr8CLcBD/download-5.jpg",
+    "name": "Husky Puppy",
+    "category": "Pet Adoption",
+    "location": "Dhaka, Bangladesh",
+    "price": 15000,
+    "button": "See Details"
+  },
+  {
+    "id": "20",
+    "image": "https://i.ibb.co.com/bRsPsdN7/download-4.jpg",
+    "name": "Fish Food Pellets (200g)",
+    "category": "Pet Food",
+    "location": "Chittagong, Bangladesh",
+    "price": 180,
+    "button": "See Details"
+  }
+]

@@ -14,6 +14,7 @@ import AddList from './Components/Pages/AddList.jsx';
 import ListDetails from './Components/Pages/ListDetails.jsx';
 import MyList from './Components/Pages/MyList.jsx';
 import MyOrder from './Components/Pages/MyOrder.jsx';
+import PetSupplies from './Components/Pets/PetSupplies.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
    children:[
     {
       index:true,
+      loader:()=>fetch('Data.json'),
       path:"/",
       Component:Home
     },
@@ -32,6 +34,11 @@ const router = createBrowserRouter([
    {
     path:"/register",
     Component:Register
+   },
+   {
+    path:'/pets',
+    loader:()=>fetch('Data.json'),
+    Component:PetSupplies
    },
    {
     path:"/:id",
