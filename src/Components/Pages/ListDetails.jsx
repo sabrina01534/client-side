@@ -1,12 +1,13 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+// import { useLoaderData } from 'react-router';
 
-const ListDetails = () => {
-    const data =useLoaderData();
-    console.log(data);
-    const {name, category, owner_email, description, price, location, image}=data;
+const ListDetails = ({singleCard}) => {
+    // const data =useLoaderData();
+    // console.log(data);
+    const {name, category, owner_email, description, price, location, image}=singleCard;
     return (
         <div>
+            <h1>this is details page</h1>
             <div className="card card-side bg-base-100 shadow-sm">
   <figure>
     <img

@@ -21,10 +21,10 @@ const links=<>
     
     {
       user&&<>
-      <li><NavLink to='/plant'>Add Listing Page</NavLink></li>
-      <li><NavLink to='/plant'>Listing Details Page</NavLink></li>
-      <li><NavLink to='/plant'>My Listings Page</NavLink></li>
-      <li><Link to='/myprofile'>My Orders Page</Link></li>
+      <li><NavLink to='/pages'>Add Listing Page</NavLink></li>
+      <li><NavLink to='/pages'>Listing Details Page</NavLink></li>
+      <li><NavLink to='/pages'>My Listings Page</NavLink></li>
+      <li><Link to='/pages'>My Orders Page</Link></li>
       </>  
     }
 
