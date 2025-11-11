@@ -3,6 +3,7 @@ import { AuthContext } from '../Context/AuthContext/AuthContext';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../Firebase/Firebase.init';
 import { IoEyeOffSharp } from "react-icons/io5";
+import { Link } from 'react-router';
 
 const Register = () => {
     const [error, setError]=useState('')
@@ -42,28 +43,34 @@ const Register = () => {
     return (
         <div className="card bg-base-100 mx-auto mt-5 w-full max-w-sm shrink-0 shadow-2xl">
       <div className="card-body">
-        <h1 className="text-3xl font-bold">Please Sign Up!</h1>
+        <h1 className="text-3xl font-bold mb-3">Please Register!</h1>
         <form onSubmit={ handleRegister}>
             <fieldset className="fieldset">
+               
+               {/* name */}
+           <label className="label">Name</label>
+          <input type="text" name='name' className="input" placeholder="name" />
                 {/* email  */}
+
           <label className="label text-black-500">Email</label>
           <input type="text" name='email' className="input" placeholder="Email" />
-                 {/* name */}
-           <label className="label">Name</label>
-          <input type="email" name='name' className="input" placeholder="name" />
+                 
                 {/* url */}
           <label className="label">Image Url</label>
-          <input type="email" name='url' className="input" placeholder="url" />
+          <input type="text" name='url' className="input" placeholder="url" />
                  {/* password */}
-          <div>
+         
             <label className="label">Password</label>
-          <input type={showPassword ? "text":"password"} name="password" className="input" placeholder="Password" />
+
+          <div>
+            <input type={showPassword ? "text":"password"} name="password" className="input" placeholder="Password" />
           <button onClick={ handlShowPassword }
-           className="btn btn-xs absolute mt-2 right-12"><IoEyeOffSharp /></button>
+           className="btn btn-xs absolute mt-2 right-16"><IoEyeOffSharp /></button>
+          
           </div>
           
           <div><a className="link link-hover">Forgot password?</a></div>
-          <button className="btn btn-neutral mt-4">Sign Up</button>
+          <button className="btn btn-neutral mt-4">Register</button>
          <button onClick={ handleGoogleSignIn} className="btn bg-white text-black border-[#e5e5e5]">
         <svg aria-label="Google logo" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><g>
           <path d="m0 0H512V512H0" fill="#fff"></path><path fill="#34a853" 
@@ -75,7 +82,8 @@ const Register = () => {
          </button>
        </fieldset>
         </form>
-        <p>Already have an Account?Please<Link className='text-blue-400 hover:text-blue-800 underline' to='/login'> login</Link></p>
+        <p>Already have an Account?Please
+            <Link className='text-blue-400 hover:text-blue-800 underline' to='/login'> login</Link></p>
       {
         error && <p className='text-red-500'>{error}</p>
       }

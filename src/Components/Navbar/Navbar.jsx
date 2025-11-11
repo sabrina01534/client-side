@@ -5,25 +5,26 @@ import { AuthContext } from '../Context/AuthContext/AuthContext';
 const Navbar = () => {
 const {user,signOutUser}=use(AuthContext)
 
-// const handleSignOut=()=>{
-//     signOutUser()
-//     .then((result)=>{
-//         console.log(result)
-//     })
-//     .catch(error=>{
-//         console.log(error)
-//     })
-// }
+const handleSignOut=()=>{
+    signOutUser()
+    .then((result)=>{
+        console.log(result)
+    })
+    .catch(error=>{
+        console.log(error)
+    })
+}
 
 const links=<>
  <li><NavLink to='/'>Home</NavLink></li>       
-    <li><NavLink to='/plant'>Plants</NavLink></li>       
-    <li><Link to='/myprofile'>MyProfile</Link></li>
+    <li><NavLink to='/plant'>Pets &amp; Supplies</NavLink></li>       
+    
     {
       user&&<>
-      <li><NavLink to='/plant'>Plants</NavLink></li>
-      <li><NavLink to='/plant'>Plants</NavLink></li>
-      <li><NavLink to='/plant'>Plants</NavLink></li>
+      <li><NavLink to='/plant'>Add Listing Page</NavLink></li>
+      <li><NavLink to='/plant'>Listing Details Page</NavLink></li>
+      <li><NavLink to='/plant'>My Listings Page</NavLink></li>
+      <li><Link to='/myprofile'>My Orders Page</Link></li>
       </>  
     }
 
@@ -47,24 +48,25 @@ const links=<>
         <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            src="https://i.ibb.co.com/dwH4XVW6/download-13.png" />
         </div>
 </div>
-    <a className="btn btn-ghost text-2xl text-green-600">GreenNest</a>
+    <a className="btn btn-ghost text-2xl text-green-600">PawMart</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
      {links}
     </ul>
   </div>
-  <div className="navbar-end">
-    {/* <p className='mr-3 '><CgProfile /></p> */}
+  <div className="navbar-end gap-3">
+ 
 
-    {/* {user ?
-    <a onClick={handleSignOut} className="btn">Sign Out </a>:<Link className='text-blue-500 bg-green-200 p-3 ' to="/login">Login</Link>}
-      */}
-      <Link to="/login" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Login</Link>
-      <Link to="/register" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Register</Link>
+    {user ?
+    <a onClick={handleSignOut} className="btn btn-success">Sign Out </a>:<Link className='text-white-500 btn btn-success p-3 ' to="/login">Login</Link>}
+     
+   
+      {/* <Link to="/login" className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">Login</Link> */}
+      <Link to="/register" className="text-white-500 btn btn-success p-3">Register</Link>
   </div>
 </div>
     );

@@ -9,6 +9,11 @@ import AuthProvider from './Components/Context/AuthContext/AuthProvider.jsx';
 import Home from './Components/Home/Home.jsx';
 import Login from './Components/Login/Login.jsx';
 import Register from './Components/Register/Register.jsx';
+import PrivateRoutes from './Components/Routes/PrivateRoutes.jsx';
+import AddList from './Components/Pages/AddList.jsx';
+import ListDetails from './Components/Pages/ListDetails.jsx';
+import MyList from './Components/Pages/MyList.jsx';
+import MyOrder from './Components/Pages/MyOrder.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +32,31 @@ const router = createBrowserRouter([
    {
     path:"/register",
     Component:Register
-   }
+   },
+   {
+    path:"/:id",
+    element:<PrivateRoutes>
+    <AddList></AddList>
+    </PrivateRoutes>
+   },
+   {
+    path:"/pages",
+    element:<PrivateRoutes>
+      <ListDetails></ListDetails>
+    </PrivateRoutes>
+   },
+   {
+path:"/pages",
+    element:<PrivateRoutes>
+      <MyList></MyList>
+    </PrivateRoutes>
+   },
+   {
+path:"/pages",
+    element:<PrivateRoutes>
+     <MyOrder></MyOrder>
+    </PrivateRoutes>
+   },
    ]
   },
 ]);
